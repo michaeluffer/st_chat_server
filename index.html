@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Chat</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+	</head>
+	<body>
+		<div id="sidebar">
+			<ul id="users"></ul>
+		</div>
+		<div id="chat-window">
+			<ul id="messages"></ul>
+		</div>
+		<form action="">
+			<input id="m" autocomplete="off" />
+			<button type="button" id="submit">Send</button>
+		</form>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>

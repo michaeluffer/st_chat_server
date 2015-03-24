@@ -1,0 +1,16 @@
+{
+  "name": "node-chat",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.0",
+    "socket.io": "^1.3.5",
+    "redis": "~0.12.1"
+  }
+}
